@@ -55,7 +55,7 @@ public class Example extends Task implements RunnableTask<Example.Output> {
     public static class Output implements io.kestra.core.models.tasks.Output {
         @Schema(
             title = "Short description for this output",
-            description = "Full description of this output"
+            description = "Full description of this output test"
         )
         private final OutputChild child;
     }
